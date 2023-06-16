@@ -32,7 +32,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <name>GH dreitier</name>
+                    <name>GH org</name>
                     <url>https://maven.pkg.github.com/jandroav/organization-parent-pom</url>
                     <snapshots>
                         <enabled>true</enabled>
