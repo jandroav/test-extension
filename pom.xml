@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>org.liquibase</groupId>
 		<artifactId>parent-pom</artifactId>
-		<version>${project.version}</version>
+		<version>4.22.0</version>
 	</parent>
 
     <distributionManagement>
