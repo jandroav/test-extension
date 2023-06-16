@@ -1,0 +1,24 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.liquibase</groupId>
+    <artifactId>test-extension</artifactId>
+    <name>test-extension</name>
+    <packaging>jar</packaging>
+	<version>4.22.0</version>
+	<description>Test extension pom</description>
+
+	<parent>
+		<groupId>org.liquibase</groupId>
+		<artifactId>parent-pom</artifactId>
+		<version>${project.version}</version>
+	</parent>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/jandroav/test-extension</url>
+        </repository>
+  </distributionManagement>
+
+</project>
